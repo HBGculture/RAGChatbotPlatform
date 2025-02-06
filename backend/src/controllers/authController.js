@@ -1,7 +1,8 @@
 // backend/src/controllers/authController.js
 
 const jwt = require('jsonwebtoken');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
+
 
 // In a real-world application, you would interact with your database.
 // For this example, we'll use an in-memory array.
